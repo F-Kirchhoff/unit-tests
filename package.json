@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon .",
-    "test": "npm run html:check && npm run css:check && npm run prettier:check",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
     "html:check": "npx htmlhint **/*.html",
     "css:check": "npx stylelint **/*.css",
     "css:fix": "npx stylelint **/*.css --fix",
