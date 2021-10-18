@@ -6,6 +6,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon .",
     "test": "npm run html:check && npm run css:check && npm run prettier:check",
     "html:check": "npx htmlhint **/*.html",
     "css:check": "npx stylelint **/*.css",
