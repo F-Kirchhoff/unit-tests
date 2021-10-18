@@ -24,6 +24,7 @@
   "devDependencies": {
     "htmlhint": "^0.15.2",
     "husky": "^7.0.2",
+    "jest": "^27.3.0",
     "lint-staged": "^11.2.3",
     "nodemon": "^2.0.13",
     "prettier": "^2.4.1",
