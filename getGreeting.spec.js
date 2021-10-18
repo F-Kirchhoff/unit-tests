@@ -1,4 +1,4 @@
-import { describe, it } from '@jest/globals'
+import { describe, it, expect } from '@jest/globals'
 import { getGreeting } from './getGreeting.js'
 
 const names = ['Leonardo', 'name', '@tribal', 'something dumb']
