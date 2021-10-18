@@ -1,12 +1,5 @@
-console.log('hi node.')
-
-function getGreeting(name = 'stranger') {
-  return `hi ${name}!`
-}
-
-function replaceName(text, name, newName) {
-  return text.replaceAll(name, newName)
-}
+import { getGreeting } from './getGreeting.js'
+import { replaceName } from './replaceName.js'
 
 const old = getGreeting('john')
 console.log(old)
