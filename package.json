@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "nodemon .",
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch",
     "html:check": "npx htmlhint **/*.html",
     "css:check": "npx stylelint **/*.css",
     "css:fix": "npx stylelint **/*.css --fix",
